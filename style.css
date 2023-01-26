@@ -20,12 +20,12 @@ body {
     background-color: #1f2937;
     display: flex;
     padding: 1.4rem 13rem 4rem;
+    font-size: 18px;
 }
 
 .nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
     gap: 24px;
     font-size: 18px;
 }
@@ -41,17 +41,14 @@ a {
     text-decoration: none;
 }
 
-.welcome .left .right{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+.welcome h1{
+    font-size: 48px;
 }
 
 .left {
     flex: 1;
 }
 .right {
-    display: flex;
     margin-left: 5rem;
 }
 
@@ -63,16 +60,6 @@ button {
     border: 0;
     border-radius: 6px;
     font-size: 18px;
-}
-
-.welcome h1{
-    font-size: 48px;
-    font-weight: bolder;
-}
-
-.welcome p {
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
 .image {
@@ -102,8 +89,8 @@ button {
 .cards {
     display: flex;
     justify-content: space-between;
-    padding-left: 22rem;
-    padding-right: 22rem;
+    padding-left: 16rem;
+    padding-right: 16rem;
     padding-bottom: 5rem;
 }
 
@@ -128,8 +115,6 @@ button {
     color: #1f2937;
     background-color: #e5e7eb;
     font-size: 30px;
-    display: flex;
-    flex-direction: column;
     padding: 4rem 25rem;
 }
 
@@ -138,7 +123,6 @@ button {
     justify-content: flex-end;
     font-size: 26px;
     font-weight: bold;
-    margin-top: 0;
 }
 
 .signup {
@@ -146,17 +130,17 @@ button {
     margin: 4rem 30rem;
     padding: 3rem 6rem;
     display: flex;
-    justify-content: center;
     border-radius: 8px;
-    justify-content: flex-start;
     align-items: center;
 }
+
 .signup .text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin: 0;
 }
+
 .signup #title {
     font-size: 32px;
 }
